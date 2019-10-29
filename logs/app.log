@@ -1,0 +1,102 @@
+2019-08-02 23:25:28,227 INFO c.e.Application [restartedMain] Starting Application on DESKTOP-DM7MLMD with PID 2228 (C:\Users\Samarth\Desktop\QA-project\Group3\target\classes started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-02 23:25:28,233 DEBUG c.e.Application [restartedMain] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-02 23:25:28,233 INFO c.e.Application [restartedMain] No active profile set, falling back to default profiles: default
+2019-08-02 23:25:29,257 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-02 23:25:29,267 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2019-08-02 23:25:29,267 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-02 23:25:29,441 INFO o.a.j.s.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-02 23:25:29,521 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-08-02 23:25:29,521 INFO o.s.w.c.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1256 ms
+2019-08-02 23:25:29,698 INFO o.s.s.c.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-02 23:25:29,863 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-9000"]
+2019-08-02 23:25:29,890 INFO c.e.Application [restartedMain] Started Application in 1.96 seconds (JVM running for 3.149)
+2019-08-02 23:25:36,357 INFO o.a.c.c.C.[.[.[/] [http-nio-9000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-02 23:25:36,357 INFO o.s.w.s.DispatcherServlet [http-nio-9000-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-08-02 23:25:36,364 INFO o.s.w.s.DispatcherServlet [http-nio-9000-exec-1] Completed initialization in 7 ms
+2019-08-02 23:26:00,228 INFO c.e.c.UserController [http-nio-9000-exec-5] add user controller
+2019-08-02 23:26:00,228 INFO c.e.d.D.I.UserDAO [http-nio-9000-exec-5]  Getting all the usernames
+2019-08-02 23:26:00,723 INFO c.e.d.D.I.UserDAO [http-nio-9000-exec-5]  Getting all the usernames
+2019-08-02 23:26:00,723 INFO c.e.c.UserController [http-nio-9000-exec-5] Error: Username must be UNIQUE and VALID
+2019-08-02 23:26:12,255 INFO o.s.s.c.ThreadPoolTaskExecutor [RMI TCP Connection(2)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-03 17:57:01,080 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 17:57:01,588 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 17:57:01,591 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 17:57:01,680 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 17:57:01,682 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 17:57:01,757 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 17:57:01,757 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 17:57:01,831 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 17:57:01,833 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 17:57:01,911 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:05,466 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.PasswordValueDAOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,693 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.ApplicationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,699 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.StationDAOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,726 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.StationControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,737 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.UserDAOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,762 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.BookingDAOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,768 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.TrainDAOTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,797 INFO o.s.t.c.s.AbstractContextLoader [main] Could not detect default resource locations for test class [com.erail.integrationTest.ViewControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-08-03 18:04:05,798 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.erail.integrationTest.ViewControllerTest]: ViewControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-08-03 18:04:06,343 INFO c.e.i.PasswordValueDAOTest [main] Starting PasswordValueDAOTest on DESKTOP-DM7MLMD with PID 11608 (started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-03 18:04:06,344 DEBUG c.e.i.PasswordValueDAOTest [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-03 18:04:06,345 INFO c.e.i.PasswordValueDAOTest [main] No active profile set, falling back to default profiles: default
+2019-08-03 18:04:08,507 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:08,976 INFO o.s.t.w.s.TestDispatcherServlet [main] Initializing Servlet ''
+2019-08-03 18:04:08,988 INFO o.s.t.w.s.TestDispatcherServlet [main] Completed initialization in 12 ms
+2019-08-03 18:04:09,010 INFO c.e.i.PasswordValueDAOTest [main] Started PasswordValueDAOTest in 3.056 seconds (JVM running for 5.018)
+2019-08-03 18:04:09,265 INFO c.e.i.ApplicationTest [main] Starting ApplicationTest on DESKTOP-DM7MLMD with PID 11608 (started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-03 18:04:09,265 DEBUG c.e.i.ApplicationTest [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-03 18:04:09,265 INFO c.e.i.ApplicationTest [main] No active profile set, falling back to default profiles: default
+2019-08-03 18:04:10,008 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:10,278 INFO c.e.i.ApplicationTest [main] Started ApplicationTest in 1.037 seconds (JVM running for 6.286)
+2019-08-03 18:04:10,321 INFO c.e.Application [main] Starting Application on DESKTOP-DM7MLMD with PID 11608 (started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-03 18:04:10,321 DEBUG c.e.Application [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-03 18:04:10,322 INFO c.e.Application [main] No active profile set, falling back to default profiles: default
+2019-08-03 18:04:11,036 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-9000"]
+2019-08-03 18:04:11,053 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2019-08-03 18:04:11,054 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-03 18:04:11,340 INFO o.a.j.s.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-03 18:04:11,347 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2019-08-03 18:04:11,348 INFO o.s.w.c.ContextLoader [main] Root WebApplicationContext: initialization completed in 1022 ms
+2019-08-03 18:04:11,455 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:11,545 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-9000"]
+2019-08-03 18:04:11,615 INFO c.e.Application [main] Started Application in 1.329 seconds (JVM running for 7.623)
+2019-08-03 18:04:11,665 INFO c.e.i.StationControllerTest [main] Starting StationControllerTest on DESKTOP-DM7MLMD with PID 11608 (started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-03 18:04:11,665 DEBUG c.e.i.StationControllerTest [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-03 18:04:11,666 INFO c.e.i.StationControllerTest [main] No active profile set, falling back to default profiles: default
+2019-08-03 18:04:12,342 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:12,577 INFO o.s.t.w.s.TestDispatcherServlet [main] Initializing Servlet ''
+2019-08-03 18:04:12,587 INFO o.s.t.w.s.TestDispatcherServlet [main] Completed initialization in 10 ms
+2019-08-03 18:04:12,597 INFO c.e.i.StationControllerTest [main] Started StationControllerTest in 0.958 seconds (JVM running for 8.604)
+2019-08-03 18:04:12,627 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2019-08-03 18:04:12,627 INFO o.s.t.w.s.TestDispatcherServlet [main] Initializing Servlet ''
+2019-08-03 18:04:12,628 INFO o.s.t.w.s.TestDispatcherServlet [main] Completed initialization in 0 ms
+2019-08-03 18:04:12,685 INFO c.e.c.StationController [main] getting list of Stations
+2019-08-03 18:04:13,140 INFO c.e.d.D.I.StationDAO [main] Stations found 
+2019-08-03 18:04:13,141 INFO c.e.c.StationController [main] 6 Stations found 
+2019-08-03 18:04:13,322 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 18:04:13,394 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:13,395 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 18:04:13,465 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:13,466 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 18:04:13,546 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:13,546 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 18:04:13,617 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:13,617 INFO c.e.d.D.I.PasswordValueDAO [main]  Getting all the password information
+2019-08-03 18:04:13,688 INFO c.e.d.D.I.PasswordValueDAO [main]  Got all the information related to the password information
+2019-08-03 18:04:13,749 INFO c.e.i.ViewControllerTest [main] Starting ViewControllerTest on DESKTOP-DM7MLMD with PID 11608 (started by Samarth in C:\Users\Samarth\Desktop\QA-project\Group3)
+2019-08-03 18:04:13,750 DEBUG c.e.i.ViewControllerTest [main] Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-08-03 18:04:13,751 INFO c.e.i.ViewControllerTest [main] No active profile set, falling back to default profiles: default
+2019-08-03 18:04:14,200 INFO o.s.s.c.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:14,311 INFO o.s.t.w.s.TestDispatcherServlet [main] Initializing Servlet ''
+2019-08-03 18:04:14,324 INFO o.s.t.w.s.TestDispatcherServlet [main] Completed initialization in 13 ms
+2019-08-03 18:04:14,337 INFO c.e.i.ViewControllerTest [main] Started ViewControllerTest in 0.644 seconds (JVM running for 10.345)
+2019-08-03 18:04:14,374 INFO c.e.d.D.I.UserDAO [main]  Getting all the usernames
+2019-08-03 18:04:14,458 INFO c.e.d.D.I.UserDAO [main]  Getting all the usernames
+2019-08-03 18:04:14,459 INFO c.e.d.D.I.UserDAO [main]  Getting all the usernames
+2019-08-03 18:04:14,538 INFO c.e.d.D.I.UserDAO [main]  Getting all the usernames
+2019-08-03 18:04:14,553 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:14,553 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:14,554 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-14] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:14,554 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-12] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-03 18:04:14,555 INFO o.s.s.c.ThreadPoolTaskExecutor [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
